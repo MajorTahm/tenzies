@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box
+}
+
+body {
+  margin: 0;
+  background-color: #0B2434;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  height: 320px;
+  width: 320px;
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  padding: 34px 34px;
+  position: relative;
+  
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25.6px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+
+  color: #2B283A;
+  user-select: none;
+}
+
+p {
+  margin: 0;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.1072px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #4A4E74;
+  user-select: none;
+}
+
+.tile--container {
+  display: grid;
+  margin-block: 25px;
+  gap: 18px;
+  grid-template-columns: 36px 36px 36px 36px 36px;
+  grid-template-rows: 36px 36px;
+}
+
+.tile {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  /* background-color: #FFFFFF; */
+  
+  /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 3.81277px; */
+
+  align-items: center;
+  justify-content: center;
+
+  user-select: none;
+}
+
+.tileNumber  {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.5889px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #2B283A;
+
+  user-select: none;
+}
+
+button {
+  max-width: 120px;
+  min-width: 93px;
+  height: 35px;
+
+  padding-inline: 10px;
+
+  background: #5035FF;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 3.81277px;
+  border: none;
+
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.384px;
+  line-height: 19px;
+
+  color: #FFFFFF;
+  user-select: none;
+}
+
+.congratz {
+  position: absolute;
+  background-color: rgba(112, 128, 144, 0.5);
+  
+  width: 320px;
+  height: 10rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+  text-align: center;
+  align-itmes: center;
+
+  user-select: none;
+
+
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 10rem;
+  letter-spacing: -0.03em;
+
+  color: #2B283A;
+}
